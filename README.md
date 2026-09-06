@@ -98,7 +98,8 @@ Available keys and their placeholders:
 
 ## Known issue
 
-The TUI caches MCP state at startup, so a server started through `mcp_activate` keeps showing as disabled in the `/mcp` list even though its tools are live and the model is using them. This is a display problem only.
+* The TUI caches MCP state at startup, so a server started through `mcp_activate` keeps showing as disabled in the `/mcp` list even though its tools are live and the model is using them. This is a display problem only.
+* The plugin is currently incompatible with OpenCode v2
 
 ## License
 
