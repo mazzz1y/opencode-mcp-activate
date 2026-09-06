@@ -1,0 +1,38 @@
+{
+  "name": "opencode-mcp-activate",
+  "version": "1.0.0",
+  "description": "opencode plugin exposing an mcp_activate tool that starts disabled MCP servers on demand",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "index.js",
+    "prompts.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazzz1y/opencode-mcp-activate.git"
+  },
+  "homepage": "https://github.com/mazzz1y/opencode-mcp-activate#readme",
+  "bugs": {
+    "url": "https://github.com/mazzz1y/opencode-mcp-activate/issues"
+  },
+  "author": "Dmitry Rubtsov <me@mazy.wtf>",
+  "license": "MIT"
+}
