@@ -2,6 +2,10 @@
 
 An [opencode](https://opencode.ai) plugin that lets the model start and stop configured MCP servers at runtime, through a single `mcp_activate` tool.
 
+## Discontinued
+
+No longer supported, as I'm switching to `gitlab.com/gitlab-org/ai/lazy-mcp`, which offers the same functionality without being tied specifically to OpenCode.
+
 ## Why
 
 Every connected MCP server injects its tool schemas into every request. A handful of heavy servers can cost tens of thousands of tokens of context before the model has done anything.
